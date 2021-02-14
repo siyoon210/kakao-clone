@@ -15,6 +15,6 @@
   font-size: 11px;
 }
 
-.screen-header__icons span:nth-child(2) {
-  margin: 0 20px;
+.screen-header__icons span:not(:first-child) {
+  margin-left: 20px;
 }
