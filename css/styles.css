@@ -3,11 +3,36 @@
 @import "reset.css";
 /* component */
 @import "components/status-bar.css";
-
+@import "components/screen-header.css";
 /* screens */
 @import "screens/welcome.css";
 
 body {
   color: var(--black);
   font-family: "Noto Sans KR", sans-serif;
+}
+
+.friends-display-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  background-color: #fafafa;
+}
+
+.friends-display-link span {
+  font-size: 13.5px;
+  margin: 0 10px 4px 10px;
+  opacity: 1;
+  letter-spacing: -0.2px;
+}
+
+.friends-display-link .fa-info-circle {
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+.friends-display-link .fa-chevron-right {
+  font-size: 10px;
+  opacity: 0.3;
 }
