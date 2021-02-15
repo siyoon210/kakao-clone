@@ -18,3 +18,61 @@
 .screen-header__icons span:not(:first-child) {
   margin-left: 20px;
 }
+
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 18px 17px 18px;
+}
+
+#chat-screen .alt-header {
+  padding-top: 5px;
+}
+
+.alt-header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.alt-header i.fa-angle-left {
+  font-size: 28px;
+}
+
+.alt-header i.fa-search {
+  font-size: 20px;
+}
+
+.alt-header i.fa-bars {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.alt-header__column {
+  width: 33.3%;
+}
+
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}

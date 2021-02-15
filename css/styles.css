@@ -6,11 +6,14 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/nav.css";
+@import "components/no-mobile.css";
 /* screens */
 @import "screens/welcome.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   color: var(--black);

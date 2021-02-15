@@ -36,7 +36,7 @@
 
 .recommended-friends span {
   display: block;
-  margin: 90px 0;
+  margin: 85px 0;
   text-align: center;
   font-size: 14px;
   opacity: 0.5;
@@ -147,4 +147,9 @@
 
 .open-post__heart i {
   margin-right: 3px;
+}
+
+.open-post:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 14px;
 }
