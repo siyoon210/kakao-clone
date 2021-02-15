@@ -10,6 +10,7 @@
 @import "screens/welcome.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 body {
   color: var(--black);

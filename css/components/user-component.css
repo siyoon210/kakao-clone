@@ -23,6 +23,23 @@
   letter-spacing: -1px;
 }
 
+.user-component__subtitle {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 10px;
+  opacity: 0.5;
+  display: flex;
+}
+
+.user-component__subtitle .fa-exclamation-circle {
+  margin-left: 5px;
+  color: red;
+}
+
+.user-component__column .fa-comment-alt {
+  font-size: 24px;
+}
+
 .user-component__chevron {
   display: flex;
   align-items: center;
