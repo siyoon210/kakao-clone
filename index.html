@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="https://kit.fontawesome.com/0789d1d8fa.js" crossorigin="anonymous"></script>
+    <title>Welcome to Kakao Clone</title>
+</head>
+<body class="welcome">
+    <div class="status-bar">
+        <div class="status-bar__service">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__time">
+            <span>10:09</span>
+        </div>
+        <div class="status-bar__battery">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1>Welcome to KakaoTalk</h1>
+        <h2>
+            If you have a Kakao Account, <br/> login with your email or phone number.
+        </h2>
+    </header>
+    
+    <form class="login-form" action="friends.html" method="GET">
+        <input type="email" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <input type="button" value="Sign Up"/>
+        <a href="">Find Kakao Account or Password</a>
+    </form>
+</body>
+</html>
