@@ -18,3 +18,25 @@
 .screen-header__icons span:not(:first-child) {
   margin-left: 20px;
 }
+
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 18px 17px 18px;
+}
+
+.alt-header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.alt-header i.fa-angle-left {
+  font-size: 28px;
+}
+
+.alt-header i.fa-search {
+  font-size: 20px;
+}
